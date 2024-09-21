@@ -1,0 +1,3 @@
+{"Tag":"DIV","XPathSelector":"//div[@class='_1MOwX _1bCJz AH9fe']//div[@data-auto='product-spec-item']/descendant::text()","SearchFrames":false,"Attributes":[]}
+
+//div[@class='_1MOwX _1bCJz AH9fe']//div[@data-auto='product-spec-item']//span
