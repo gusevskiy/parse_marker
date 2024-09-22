@@ -19,7 +19,10 @@
 
 
 Отзовы рейтинг
+получить текст кол-ва отзывов
+//div[@class='_1MOwX _2eMnU _1Qy9t']/div/div/div[1]/a/span
 
+путь к чекбоксам звезд
 //div[@data-auto='product-rating-stat']//div[@data-rate='3']
 
 "return document.getElementsByTagName('iframe')[1].contentWindow.document.getElementById('tablegridDetailedCalls').getElementsByTagName('tr').length;"

@@ -317,7 +317,13 @@
                                 <Group />
                                 <DefaultValue xsi:type="xsd:string">main_url</DefaultValue>
                                 <DataTypeString>System.String</DataTypeString>
-                                <Direction>IN</Direction>
+                                <Direction>OUT</Direction>
+                            </ScriptVariable>
+                            <ScriptVariable>
+                                <Name>reviews</Name>
+                                <Group />
+                                <DataTypeString>System.String</DataTypeString>
+                                <Direction>OUT</Direction>
                             </ScriptVariable>
                         </Value>
                     </SerializationItem>

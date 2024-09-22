@@ -2099,7 +2099,7 @@
                         <Value xsi:type="xsd:boolean">false</Value>
                     </SerializationItem>
                 </Properties>
-                <IsBreakpoint>true</IsBreakpoint>
+                <IsBreakpoint>false</IsBreakpoint>
                 <IsIgnore>false</IsIgnore>
             </SerializationComponent>
         </Components>
@@ -2196,16 +2196,16 @@
             <DataTypeString>String</DataTypeString>
             <Direction>IN_OUT</Direction>
         </ScriptVariable>
-        <ScriptVariable>
-            <Name>reviews</Name>
-            <Group>параметры</Group>
-            <DataTypeString>String</DataTypeString>
-            <Direction>IN_OUT</Direction>
-        </ScriptVariable>
     </GlobalVariables>
     <Arguments>
         <ScriptVariable>
             <Name>main_url</Name>
+            <Group />
+            <DataTypeString>String</DataTypeString>
+            <Direction>OUT</Direction>
+        </ScriptVariable>
+        <ScriptVariable>
+            <Name>reviews</Name>
             <Group />
             <DataTypeString>String</DataTypeString>
             <Direction>OUT</Direction>
