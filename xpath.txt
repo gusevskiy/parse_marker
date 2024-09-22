@@ -1,3 +1,50 @@
 {"Tag":"DIV","XPathSelector":"//div[@class='_1MOwX _1bCJz AH9fe']//div[@data-auto='product-spec-item']/descendant::text()","SearchFrames":false,"Attributes":[]}
 
 //div[@class='_1MOwX _1bCJz AH9fe']//div[@data-auto='product-spec-item']//span
+
+
+Характеристики
+регулярка [А-я]+[а-я]\s[а-я]+
+
+//div[@aria-label='Характеристики']/div/div/span
+
+
+,"XPathSelector":"//div[@aria-label='product-description']"
+
+//div[@class='dETH7 _1MOwX _1bCJz']//div[@class='_1MOwX _1bCJz _2FUSc']
+
+только значения
+//div[@class='dETH7 _1MOwX _1bCJz']/div[2]/div/div/div/div/div/div[@class='_1MOwX _1bCJz _2FUSc'][1]//div[@class='_2pWiw']
+
+
+
+Отзовы рейтинг
+
+//div[@data-auto='product-rating-stat']//div[@data-rate='3']
+
+"return document.getElementsByTagName('iframe')[1].contentWindow.document.getElementById('tablegridDetailedCalls').getElementsByTagName('tr').length;"
+
+
+document.getElementsByClassName('_1I3ni').length
+
+document.getElementsByClassName('_1I3ni')[8].TextContent 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Общие характеристикиБрендDIGMAТипноутбукОперационная системаWindows 11 ProПроцессорIntel Celeron N4000Линейка процессораIntel Celeron NЧастота процессора1100Количество ядер процессора2Ядро процессораGemini LakeОперативная память4 ГБТип памятиDDR4Частота памяти2400 МГцДиагональ экрана14 "Разрешение экрана1920x1080Частота обновления экрана60 ГцТип покрытия экранаматовыйТип матрицы экранаIPSНаличие микрофонадаБеспроводные интерфейсыBluetooth, Wi-FiСтандарт Wi-Fi 802.11802.11 b/g/nВерсия Bluetooth4.2ИнтерфейсыUSB 2.0 Type A, USB 3.0 Type A, выход mini HDMI, микрофон/наушники ComboВидеокартаIntel UHD Graphics 600Тип видеокартывстроеннаяОбъем видеопамятиSMAТип видеопамятиSMAОбщий объем накопителей SSD128 ГБОбщий объем накопителей HDDотсутствуетОптический приводнетПоддержка карт памятиmicroSDЕмкость аккумулятора4800 мА·чЕмкость аккумулятора (Вт·ч)36 Вт·чРаскладка клавиатурыанглийская/русскаяУстройства позиционированияTouchpadРазрешение веб-камеры1080pРазмеры (ДхШхГ)220x333x17 ммВес1.3 кгДополнительная информацияeMMC хранилище распаяно на материнской плате.
