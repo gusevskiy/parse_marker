@@ -1946,7 +1946,7 @@
                     <SerializationItem>
                         <IsListValue>false</IsListValue>
                         <Name>Data</Name>
-                        <Value xsi:type="xsd:string">dict_config["reviews"].ToString()</Value>
+                        <Value xsi:type="xsd:string">Convert.ToInt32(dict_config["reviews"].ToString())</Value>
                     </SerializationItem>
                     <SerializationItem>
                         <IsListValue>false</IsListValue>
@@ -2209,7 +2209,7 @@
             <Name>reviews</Name>
             <Group />
             <Comment>Кол-во отзывов на товар</Comment>
-            <DataTypeString>String</DataTypeString>
+            <DataTypeString>Int32</DataTypeString>
             <Direction>OUT</Direction>
         </ScriptVariable>
     </Arguments>

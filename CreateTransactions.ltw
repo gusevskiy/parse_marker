@@ -86,6 +86,87 @@
         <IsIgnore>false</IsIgnore>
         <Components>
             <SerializationComponent>
+                <ClassName>LTools.Workflow.Elements.WFComment</ClassName>
+                <AssemblyName>LTools.Workflow, Version=1.0.6.1, Culture=neutral, PublicKeyToken=null</AssemblyName>
+                <Properties>
+                    <SerializationItem>
+                        <IsListValue>false</IsListValue>
+                        <Name>Comment</Name>
+                        <Value xsi:type="xsd:string">Создаем таблицу
+
+сразу с названиями колонок</Value>
+                    </SerializationItem>
+                    <SerializationItem>
+                        <IsListValue>false</IsListValue>
+                        <Name>TextTag</Name>
+                    </SerializationItem>
+                    <SerializationItem>
+                        <IsListValue>false</IsListValue>
+                        <Name>ComponentName</Name>
+                        <Value xsi:type="xsd:string">Комментарий</Value>
+                    </SerializationItem>
+                    <SerializationItem>
+                        <IsListValue>false</IsListValue>
+                        <Name>WaitBefore</Name>
+                    </SerializationItem>
+                    <SerializationItem>
+                        <IsListValue>false</IsListValue>
+                        <Name>WaitAfter</Name>
+                    </SerializationItem>
+                    <SerializationItem>
+                        <IsListValue>false</IsListValue>
+                        <Name>Annotation</Name>
+                    </SerializationItem>
+                    <SerializationItem>
+                        <IsListValue>false</IsListValue>
+                        <Name>ComponentID</Name>
+                        <Value xmlns:q2="http://microsoft.com/wsdl/types/" xsi:type="q2:guid">4311e501-d314-4c08-acdd-a7e306920bd6</Value>
+                    </SerializationItem>
+                    <SerializationItem>
+                        <IsListValue>false</IsListValue>
+                        <Name>ContinueOnException</Name>
+                        <Value xsi:type="xsd:boolean">false</Value>
+                    </SerializationItem>
+                    <SerializationItem>
+                        <IsListValue>false</IsListValue>
+                        <Name>PreventLogging</Name>
+                        <Value xsi:type="xsd:boolean">false</Value>
+                    </SerializationItem>
+                    <SerializationItem>
+                        <IsListValue>false</IsListValue>
+                        <Name>SSSuccess</Name>
+                        <Value xsi:type="xsd:boolean">false</Value>
+                    </SerializationItem>
+                    <SerializationItem>
+                        <IsListValue>false</IsListValue>
+                        <Name>SSFail</Name>
+                        <Value xsi:type="xsd:boolean">false</Value>
+                    </SerializationItem>
+                    <SerializationItem>
+                        <IsListValue>true</IsListValue>
+                        <Name>NoCodeProperties</Name>
+                        <ListValue />
+                    </SerializationItem>
+                    <SerializationItem>
+                        <IsListValue>false</IsListValue>
+                        <Name>NoCodeUsed</Name>
+                        <Value xsi:type="xsd:boolean">false</Value>
+                    </SerializationItem>
+                    <SerializationItem>
+                        <IsListValue>false</IsListValue>
+                        <Name>IsCollapsed</Name>
+                        <Value xsi:type="xsd:boolean">false</Value>
+                    </SerializationItem>
+                    <SerializationItem>
+                        <IsListValue>false</IsListValue>
+                        <Name>ShowAnnotation</Name>
+                        <Value xsi:type="xsd:boolean">false</Value>
+                    </SerializationItem>
+                </Properties>
+                <IsBreakpoint>false</IsBreakpoint>
+                <IsIgnore>false</IsIgnore>
+            </SerializationComponent>
+            <SerializationComponent>
                 <ClassName>LTools.Data.Elements.DataTables.WFDataTableCreate</ClassName>
                 <AssemblyName>LTools.Data, Version=1.0.3.1, Culture=neutral, PublicKeyToken=null</AssemblyName>
                 <Properties>
@@ -101,7 +182,7 @@
                     <SerializationItem>
                         <IsListValue>false</IsListValue>
                         <Name>Columns</Name>
-                        <Value xsi:type="xsd:string">new List&lt;string&gt;() {"link",}</Value>
+                        <Value xsi:type="xsd:string">new List&lt;string&gt;() {"link","specifications","photo","rating","number_review","reviews"}</Value>
                     </SerializationItem>
                     <SerializationItem>
                         <IsListValue>false</IsListValue>
@@ -127,7 +208,7 @@
                     <SerializationItem>
                         <IsListValue>false</IsListValue>
                         <Name>ComponentID</Name>
-                        <Value xmlns:q2="http://microsoft.com/wsdl/types/" xsi:type="q2:guid">67bbb154-f2c7-4492-a1d3-8d389a1e20dd</Value>
+                        <Value xmlns:q3="http://microsoft.com/wsdl/types/" xsi:type="q3:guid">67bbb154-f2c7-4492-a1d3-8d389a1e20dd</Value>
                     </SerializationItem>
                     <SerializationItem>
                         <IsListValue>false</IsListValue>
@@ -208,7 +289,7 @@
                     <SerializationItem>
                         <IsListValue>false</IsListValue>
                         <Name>ComponentID</Name>
-                        <Value xmlns:q3="http://microsoft.com/wsdl/types/" xsi:type="q3:guid">0eb672d4-49a4-477b-9777-90a8bb94a6f8</Value>
+                        <Value xmlns:q4="http://microsoft.com/wsdl/types/" xsi:type="q4:guid">0eb672d4-49a4-477b-9777-90a8bb94a6f8</Value>
                     </SerializationItem>
                     <SerializationItem>
                         <IsListValue>false</IsListValue>
@@ -252,7 +333,7 @@
                     </SerializationItem>
                 </Properties>
                 <IsBreakpoint>false</IsBreakpoint>
-                <IsIgnore>true</IsIgnore>
+                <IsIgnore>false</IsIgnore>
             </SerializationComponent>
             <SerializationComponent>
                 <ClassName>LTools.Workflow.Elements.Script.WFCSScript</ClassName>
@@ -300,7 +381,7 @@
                     <SerializationItem>
                         <IsListValue>false</IsListValue>
                         <Name>ComponentID</Name>
-                        <Value xmlns:q4="http://microsoft.com/wsdl/types/" xsi:type="q4:guid">725d4d9a-d074-40e2-b488-6a90b49c412e</Value>
+                        <Value xmlns:q5="http://microsoft.com/wsdl/types/" xsi:type="q5:guid">725d4d9a-d074-40e2-b488-6a90b49c412e</Value>
                     </SerializationItem>
                     <SerializationItem>
                         <IsListValue>false</IsListValue>
@@ -404,7 +485,7 @@
                                 <Name>reviews</Name>
                                 <Group />
                                 <DefaultValue xsi:type="xsd:string">reviews</DefaultValue>
-                                <DataTypeString>System.String</DataTypeString>
+                                <DataTypeString>System.Int32</DataTypeString>
                                 <Direction>OUT</Direction>
                             </ScriptVariable>
                         </Value>
@@ -433,7 +514,7 @@
                     <SerializationItem>
                         <IsListValue>false</IsListValue>
                         <Name>ComponentID</Name>
-                        <Value xmlns:q5="http://microsoft.com/wsdl/types/" xsi:type="q5:guid">937e8b94-737b-44cf-9a9e-f4fd82ffa9f4</Value>
+                        <Value xmlns:q6="http://microsoft.com/wsdl/types/" xsi:type="q6:guid">937e8b94-737b-44cf-9a9e-f4fd82ffa9f4</Value>
                     </SerializationItem>
                     <SerializationItem>
                         <IsListValue>false</IsListValue>
@@ -555,7 +636,7 @@
                     <SerializationItem>
                         <IsListValue>false</IsListValue>
                         <Name>ComponentID</Name>
-                        <Value xmlns:q6="http://microsoft.com/wsdl/types/" xsi:type="q6:guid">bbb51d5b-cc86-415e-9767-1a933c65362f</Value>
+                        <Value xmlns:q7="http://microsoft.com/wsdl/types/" xsi:type="q7:guid">bbb51d5b-cc86-415e-9767-1a933c65362f</Value>
                     </SerializationItem>
                     <SerializationItem>
                         <IsListValue>false</IsListValue>
@@ -599,7 +680,7 @@
                     </SerializationItem>
                 </Properties>
                 <IsBreakpoint>false</IsBreakpoint>
-                <IsIgnore>true</IsIgnore>
+                <IsIgnore>false</IsIgnore>
                 <Components>
                     <SerializationComponent>
                         <ClassName>LTools.Workflow.Elements.WFComment</ClassName>
@@ -638,7 +719,7 @@
                             <SerializationItem>
                                 <IsListValue>false</IsListValue>
                                 <Name>ComponentID</Name>
-                                <Value xmlns:q7="http://microsoft.com/wsdl/types/" xsi:type="q7:guid">a067c6d3-7b9b-4453-9191-945be3dfe93b</Value>
+                                <Value xmlns:q8="http://microsoft.com/wsdl/types/" xsi:type="q8:guid">a067c6d3-7b9b-4453-9191-945be3dfe93b</Value>
                             </SerializationItem>
                             <SerializationItem>
                                 <IsListValue>false</IsListValue>
@@ -682,7 +763,7 @@
                             </SerializationItem>
                         </Properties>
                         <IsBreakpoint>false</IsBreakpoint>
-                        <IsIgnore>true</IsIgnore>
+                        <IsIgnore>false</IsIgnore>
                     </SerializationComponent>
                     <SerializationComponent>
                         <ClassName>LTools.WebBrowser.Elements.WFScroll</ClassName>
@@ -730,7 +811,7 @@
                             <SerializationItem>
                                 <IsListValue>false</IsListValue>
                                 <Name>ComponentID</Name>
-                                <Value xmlns:q8="http://microsoft.com/wsdl/types/" xsi:type="q8:guid">4e960e80-34f7-45a3-9ae8-cfad42ecc218</Value>
+                                <Value xmlns:q9="http://microsoft.com/wsdl/types/" xsi:type="q9:guid">4e960e80-34f7-45a3-9ae8-cfad42ecc218</Value>
                             </SerializationItem>
                             <SerializationItem>
                                 <IsListValue>false</IsListValue>
@@ -809,7 +890,7 @@
                             <SerializationItem>
                                 <IsListValue>false</IsListValue>
                                 <Name>ComponentID</Name>
-                                <Value xmlns:q9="http://microsoft.com/wsdl/types/" xsi:type="q9:guid">ecd520d5-a94c-4724-a317-c0da137579a6</Value>
+                                <Value xmlns:q10="http://microsoft.com/wsdl/types/" xsi:type="q10:guid">ecd520d5-a94c-4724-a317-c0da137579a6</Value>
                             </SerializationItem>
                             <SerializationItem>
                                 <IsListValue>false</IsListValue>
@@ -911,7 +992,7 @@
                             <SerializationItem>
                                 <IsListValue>false</IsListValue>
                                 <Name>ComponentID</Name>
-                                <Value xmlns:q10="http://microsoft.com/wsdl/types/" xsi:type="q10:guid">3f19face-2e8a-4459-b3b5-bf22907c383e</Value>
+                                <Value xmlns:q11="http://microsoft.com/wsdl/types/" xsi:type="q11:guid">3f19face-2e8a-4459-b3b5-bf22907c383e</Value>
                             </SerializationItem>
                             <SerializationItem>
                                 <IsListValue>false</IsListValue>
@@ -985,7 +1066,7 @@
                             <SerializationItem>
                                 <IsListValue>false</IsListValue>
                                 <Name>ComponentID</Name>
-                                <Value xmlns:q11="http://microsoft.com/wsdl/types/" xsi:type="q11:guid">b3cf6911-b4be-44d4-bead-1165f47900e1</Value>
+                                <Value xmlns:q12="http://microsoft.com/wsdl/types/" xsi:type="q12:guid">b3cf6911-b4be-44d4-bead-1165f47900e1</Value>
                             </SerializationItem>
                             <SerializationItem>
                                 <IsListValue>false</IsListValue>
@@ -1068,7 +1149,7 @@
                     <SerializationItem>
                         <IsListValue>false</IsListValue>
                         <Name>ComponentID</Name>
-                        <Value xmlns:q12="http://microsoft.com/wsdl/types/" xsi:type="q12:guid">327091bc-0770-45ab-bc26-c1cf294d205c</Value>
+                        <Value xmlns:q13="http://microsoft.com/wsdl/types/" xsi:type="q13:guid">327091bc-0770-45ab-bc26-c1cf294d205c</Value>
                     </SerializationItem>
                     <SerializationItem>
                         <IsListValue>false</IsListValue>
@@ -1152,7 +1233,7 @@
                     <SerializationItem>
                         <IsListValue>false</IsListValue>
                         <Name>ComponentID</Name>
-                        <Value xmlns:q13="http://microsoft.com/wsdl/types/" xsi:type="q13:guid">a76091f7-179b-42be-a804-b0f46a69e232</Value>
+                        <Value xmlns:q14="http://microsoft.com/wsdl/types/" xsi:type="q14:guid">a76091f7-179b-42be-a804-b0f46a69e232</Value>
                     </SerializationItem>
                     <SerializationItem>
                         <IsListValue>false</IsListValue>
@@ -1196,7 +1277,7 @@
                     </SerializationItem>
                 </Properties>
                 <IsBreakpoint>false</IsBreakpoint>
-                <IsIgnore>true</IsIgnore>
+                <IsIgnore>false</IsIgnore>
             </SerializationComponent>
             <SerializationComponent>
                 <ClassName>LTools.Workflow.Elements.WFComment</ClassName>
@@ -1234,7 +1315,7 @@
                     <SerializationItem>
                         <IsListValue>false</IsListValue>
                         <Name>ComponentID</Name>
-                        <Value xmlns:q14="http://microsoft.com/wsdl/types/" xsi:type="q14:guid">f4a65935-f75a-42d7-bcb8-3560b1812358</Value>
+                        <Value xmlns:q15="http://microsoft.com/wsdl/types/" xsi:type="q15:guid">f4a65935-f75a-42d7-bcb8-3560b1812358</Value>
                     </SerializationItem>
                     <SerializationItem>
                         <IsListValue>false</IsListValue>
@@ -1342,7 +1423,7 @@
                     <SerializationItem>
                         <IsListValue>false</IsListValue>
                         <Name>ComponentID</Name>
-                        <Value xmlns:q15="http://microsoft.com/wsdl/types/" xsi:type="q15:guid">3359b9eb-030a-4aac-9b45-17efc7962ccf</Value>
+                        <Value xmlns:q16="http://microsoft.com/wsdl/types/" xsi:type="q16:guid">3359b9eb-030a-4aac-9b45-17efc7962ccf</Value>
                     </SerializationItem>
                     <SerializationItem>
                         <IsListValue>false</IsListValue>
@@ -1386,7 +1467,7 @@
                     </SerializationItem>
                 </Properties>
                 <IsBreakpoint>false</IsBreakpoint>
-                <IsIgnore>true</IsIgnore>
+                <IsIgnore>false</IsIgnore>
                 <Components>
                     <SerializationComponent>
                         <ClassName>LTools.Data.Elements.Strings.WFStringSplit</ClassName>
@@ -1431,7 +1512,7 @@
                             <SerializationItem>
                                 <IsListValue>false</IsListValue>
                                 <Name>ComponentID</Name>
-                                <Value xmlns:q16="http://microsoft.com/wsdl/types/" xsi:type="q16:guid">65386f78-d71e-415c-9842-21deb150e164</Value>
+                                <Value xmlns:q17="http://microsoft.com/wsdl/types/" xsi:type="q17:guid">65386f78-d71e-415c-9842-21deb150e164</Value>
                             </SerializationItem>
                             <SerializationItem>
                                 <IsListValue>false</IsListValue>
@@ -1513,7 +1594,7 @@
                             <SerializationItem>
                                 <IsListValue>false</IsListValue>
                                 <Name>ComponentID</Name>
-                                <Value xmlns:q17="http://microsoft.com/wsdl/types/" xsi:type="q17:guid">992a543d-858a-40a1-9baf-4c9c3dec3226</Value>
+                                <Value xmlns:q18="http://microsoft.com/wsdl/types/" xsi:type="q18:guid">992a543d-858a-40a1-9baf-4c9c3dec3226</Value>
                             </SerializationItem>
                             <SerializationItem>
                                 <IsListValue>false</IsListValue>
@@ -1606,7 +1687,7 @@ dt.Rows.Add();</Value>
                             <SerializationItem>
                                 <IsListValue>false</IsListValue>
                                 <Name>ComponentID</Name>
-                                <Value xmlns:q18="http://microsoft.com/wsdl/types/" xsi:type="q18:guid">72e22e22-312e-41e5-b838-b60db9eb1d81</Value>
+                                <Value xmlns:q19="http://microsoft.com/wsdl/types/" xsi:type="q19:guid">72e22e22-312e-41e5-b838-b60db9eb1d81</Value>
                             </SerializationItem>
                             <SerializationItem>
                                 <IsListValue>false</IsListValue>
@@ -1689,7 +1770,7 @@ result.xslx</Value>
                     <SerializationItem>
                         <IsListValue>false</IsListValue>
                         <Name>ComponentID</Name>
-                        <Value xmlns:q19="http://microsoft.com/wsdl/types/" xsi:type="q19:guid">ec857932-9c5d-449d-87ff-4c54d0db536e</Value>
+                        <Value xmlns:q20="http://microsoft.com/wsdl/types/" xsi:type="q20:guid">ec857932-9c5d-449d-87ff-4c54d0db536e</Value>
                     </SerializationItem>
                     <SerializationItem>
                         <IsListValue>false</IsListValue>
@@ -1766,7 +1847,7 @@ result.xslx</Value>
                     <SerializationItem>
                         <IsListValue>false</IsListValue>
                         <Name>FileName</Name>
-                        <Value xsi:type="xsd:string">"C:\\DEV_RPA\\PRIMO\\parse_yandex_market\\result.xlsx"</Value>
+                        <Value xsi:type="xsd:string">"C:\\DEV_RPA\\PRIMO\\parse_yandex_market\\result\\result.xlsx"</Value>
                     </SerializationItem>
                     <SerializationItem>
                         <IsListValue>false</IsListValue>
@@ -1825,7 +1906,7 @@ result.xslx</Value>
                     <SerializationItem>
                         <IsListValue>false</IsListValue>
                         <Name>ComponentID</Name>
-                        <Value xmlns:q20="http://microsoft.com/wsdl/types/" xsi:type="q20:guid">92466876-ac5c-44cc-a6a9-591c0b3ef503</Value>
+                        <Value xmlns:q21="http://microsoft.com/wsdl/types/" xsi:type="q21:guid">92466876-ac5c-44cc-a6a9-591c0b3ef503</Value>
                     </SerializationItem>
                     <SerializationItem>
                         <IsListValue>false</IsListValue>
@@ -1869,7 +1950,7 @@ result.xslx</Value>
                     </SerializationItem>
                 </Properties>
                 <IsBreakpoint>false</IsBreakpoint>
-                <IsIgnore>true</IsIgnore>
+                <IsIgnore>false</IsIgnore>
                 <Components>
                     <SerializationComponent>
                         <ClassName>LTools.Office.Elements.Excel.WFAppendRange</ClassName>
@@ -1969,7 +2050,7 @@ result.xslx</Value>
                             <SerializationItem>
                                 <IsListValue>false</IsListValue>
                                 <Name>ComponentID</Name>
-                                <Value xmlns:q21="http://microsoft.com/wsdl/types/" xsi:type="q21:guid">fd7ac334-65b3-4541-8d83-3cc206127969</Value>
+                                <Value xmlns:q22="http://microsoft.com/wsdl/types/" xsi:type="q22:guid">fd7ac334-65b3-4541-8d83-3cc206127969</Value>
                             </SerializationItem>
                             <SerializationItem>
                                 <IsListValue>false</IsListValue>
@@ -2047,7 +2128,7 @@ result.xslx</Value>
                             <SerializationItem>
                                 <IsListValue>false</IsListValue>
                                 <Name>ComponentID</Name>
-                                <Value xmlns:q22="http://microsoft.com/wsdl/types/" xsi:type="q22:guid">ec06cba2-b614-4e39-be2e-8dd6ecdfe63d</Value>
+                                <Value xmlns:q23="http://microsoft.com/wsdl/types/" xsi:type="q23:guid">ec06cba2-b614-4e39-be2e-8dd6ecdfe63d</Value>
                             </SerializationItem>
                             <SerializationItem>
                                 <IsListValue>false</IsListValue>
@@ -2133,7 +2214,7 @@ result.xslx</Value>
                     <SerializationItem>
                         <IsListValue>false</IsListValue>
                         <Name>ComponentID</Name>
-                        <Value xmlns:q23="http://microsoft.com/wsdl/types/" xsi:type="q23:guid">49429629-f932-4d2b-8f77-bccbb0ee34f4</Value>
+                        <Value xmlns:q24="http://microsoft.com/wsdl/types/" xsi:type="q24:guid">49429629-f932-4d2b-8f77-bccbb0ee34f4</Value>
                     </SerializationItem>
                     <SerializationItem>
                         <IsListValue>false</IsListValue>
@@ -2176,7 +2257,7 @@ result.xslx</Value>
                         <Value xsi:type="xsd:boolean">false</Value>
                     </SerializationItem>
                 </Properties>
-                <IsBreakpoint>true</IsBreakpoint>
+                <IsBreakpoint>false</IsBreakpoint>
                 <IsIgnore>false</IsIgnore>
             </SerializationComponent>
         </Components>
@@ -2225,13 +2306,13 @@ result.xslx</Value>
             <DataTypeString>List&lt;String&gt;</DataTypeString>
             <Direction>IN_OUT</Direction>
         </ScriptVariable>
+    </GlobalVariables>
+    <Arguments>
         <ScriptVariable>
             <Name>reviews</Name>
             <Group />
-            <Comment>кол-во отзыво на товар, для передачи в ReadTransactions</Comment>
-            <DataTypeString>String</DataTypeString>
-            <Direction>IN_OUT</Direction>
+            <DataTypeString>Int32</DataTypeString>
+            <Direction>OUT</Direction>
         </ScriptVariable>
-    </GlobalVariables>
-    <Arguments />
+    </Arguments>
 </SerializationRoot>
