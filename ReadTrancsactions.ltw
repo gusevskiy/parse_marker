@@ -12,15 +12,6 @@
         <Properties>
             <SerializationItem>
                 <IsListValue>false</IsListValue>
-                <Name>ComponentName</Name>
-                <Value xsi:type="xsd:string">ReadTrancsactions</Value>
-            </SerializationItem>
-            <SerializationItem>
-                <IsListValue>false</IsListValue>
-                <Name>Annotation</Name>
-            </SerializationItem>
-            <SerializationItem>
-                <IsListValue>false</IsListValue>
                 <Name>TextTag</Name>
             </SerializationItem>
             <SerializationItem>
@@ -30,11 +21,20 @@
             </SerializationItem>
             <SerializationItem>
                 <IsListValue>false</IsListValue>
+                <Name>ComponentName</Name>
+                <Value xsi:type="xsd:string">ReadTrancsactions</Value>
+            </SerializationItem>
+            <SerializationItem>
+                <IsListValue>false</IsListValue>
                 <Name>WaitBefore</Name>
             </SerializationItem>
             <SerializationItem>
                 <IsListValue>false</IsListValue>
                 <Name>WaitAfter</Name>
+            </SerializationItem>
+            <SerializationItem>
+                <IsListValue>false</IsListValue>
+                <Name>Annotation</Name>
             </SerializationItem>
             <SerializationItem>
                 <IsListValue>false</IsListValue>
@@ -745,15 +745,6 @@
                                 <Properties>
                                     <SerializationItem>
                                         <IsListValue>false</IsListValue>
-                                        <Name>ComponentName</Name>
-                                        <Value xsi:type="xsd:string">Проверка кол-ва отзывов</Value>
-                                    </SerializationItem>
-                                    <SerializationItem>
-                                        <IsListValue>false</IsListValue>
-                                        <Name>Annotation</Name>
-                                    </SerializationItem>
-                                    <SerializationItem>
-                                        <IsListValue>false</IsListValue>
                                         <Name>TextTag</Name>
                                     </SerializationItem>
                                     <SerializationItem>
@@ -763,11 +754,20 @@
                                     </SerializationItem>
                                     <SerializationItem>
                                         <IsListValue>false</IsListValue>
+                                        <Name>ComponentName</Name>
+                                        <Value xsi:type="xsd:string">Проверка кол-ва отзывов</Value>
+                                    </SerializationItem>
+                                    <SerializationItem>
+                                        <IsListValue>false</IsListValue>
                                         <Name>WaitBefore</Name>
                                     </SerializationItem>
                                     <SerializationItem>
                                         <IsListValue>false</IsListValue>
                                         <Name>WaitAfter</Name>
+                                    </SerializationItem>
+                                    <SerializationItem>
+                                        <IsListValue>false</IsListValue>
+                                        <Name>Annotation</Name>
                                     </SerializationItem>
                                     <SerializationItem>
                                         <IsListValue>false</IsListValue>
@@ -906,6 +906,15 @@
                                         <Properties>
                                             <SerializationItem>
                                                 <IsListValue>false</IsListValue>
+                                                <Name>ComponentName</Name>
+                                                <Value xsi:type="xsd:string">Присутствие элемента</Value>
+                                            </SerializationItem>
+                                            <SerializationItem>
+                                                <IsListValue>false</IsListValue>
+                                                <Name>Annotation</Name>
+                                            </SerializationItem>
+                                            <SerializationItem>
+                                                <IsListValue>false</IsListValue>
                                                 <Name>SearchPatterText</Name>
                                                 <Value xsi:type="xsd:string">"{\"XPathSelector\":\"//div[@data-auto='reviews-title-widget']\",\"SearchFrames\":false,\"Attributes\":[]}"</Value>
                                             </SerializationItem>
@@ -933,20 +942,11 @@
                                             </SerializationItem>
                                             <SerializationItem>
                                                 <IsListValue>false</IsListValue>
-                                                <Name>ComponentName</Name>
-                                                <Value xsi:type="xsd:string">Присутствие элемента</Value>
-                                            </SerializationItem>
-                                            <SerializationItem>
-                                                <IsListValue>false</IsListValue>
                                                 <Name>WaitBefore</Name>
                                             </SerializationItem>
                                             <SerializationItem>
                                                 <IsListValue>false</IsListValue>
                                                 <Name>WaitAfter</Name>
-                                            </SerializationItem>
-                                            <SerializationItem>
-                                                <IsListValue>false</IsListValue>
-                                                <Name>Annotation</Name>
                                             </SerializationItem>
                                             <SerializationItem>
                                                 <IsListValue>false</IsListValue>
@@ -1092,13 +1092,17 @@
                                                 <Properties>
                                                     <SerializationItem>
                                                         <IsListValue>false</IsListValue>
-                                                        <Name>TextTag</Name>
-                                                        <Value xsi:type="xsd:string">Then</Value>
+                                                        <Name>ComponentName</Name>
+                                                        <Value xsi:type="xsd:string">Продолжить цикл</Value>
                                                     </SerializationItem>
                                                     <SerializationItem>
                                                         <IsListValue>false</IsListValue>
-                                                        <Name>ComponentName</Name>
-                                                        <Value xsi:type="xsd:string">Продолжить цикл</Value>
+                                                        <Name>Annotation</Name>
+                                                    </SerializationItem>
+                                                    <SerializationItem>
+                                                        <IsListValue>false</IsListValue>
+                                                        <Name>TextTag</Name>
+                                                        <Value xsi:type="xsd:string">Then</Value>
                                                     </SerializationItem>
                                                     <SerializationItem>
                                                         <IsListValue>false</IsListValue>
@@ -1107,10 +1111,6 @@
                                                     <SerializationItem>
                                                         <IsListValue>false</IsListValue>
                                                         <Name>WaitAfter</Name>
-                                                    </SerializationItem>
-                                                    <SerializationItem>
-                                                        <IsListValue>false</IsListValue>
-                                                        <Name>Annotation</Name>
                                                     </SerializationItem>
                                                     <SerializationItem>
                                                         <IsListValue>false</IsListValue>
@@ -1453,13 +1453,17 @@
                                                 <Properties>
                                                     <SerializationItem>
                                                         <IsListValue>false</IsListValue>
-                                                        <Name>TextTag</Name>
-                                                        <Value xsi:type="xsd:string">Then</Value>
+                                                        <Name>ComponentName</Name>
+                                                        <Value xsi:type="xsd:string">Продолжить цикл</Value>
                                                     </SerializationItem>
                                                     <SerializationItem>
                                                         <IsListValue>false</IsListValue>
-                                                        <Name>ComponentName</Name>
-                                                        <Value xsi:type="xsd:string">Продолжить цикл</Value>
+                                                        <Name>Annotation</Name>
+                                                    </SerializationItem>
+                                                    <SerializationItem>
+                                                        <IsListValue>false</IsListValue>
+                                                        <Name>TextTag</Name>
+                                                        <Value xsi:type="xsd:string">Then</Value>
                                                     </SerializationItem>
                                                     <SerializationItem>
                                                         <IsListValue>false</IsListValue>
@@ -1468,10 +1472,6 @@
                                                     <SerializationItem>
                                                         <IsListValue>false</IsListValue>
                                                         <Name>WaitAfter</Name>
-                                                    </SerializationItem>
-                                                    <SerializationItem>
-                                                        <IsListValue>false</IsListValue>
-                                                        <Name>Annotation</Name>
                                                     </SerializationItem>
                                                     <SerializationItem>
                                                         <IsListValue>false</IsListValue>
@@ -1710,15 +1710,6 @@
                                 <Properties>
                                     <SerializationItem>
                                         <IsListValue>false</IsListValue>
-                                        <Name>ComponentName</Name>
-                                        <Value xsi:type="xsd:string">Характеристики</Value>
-                                    </SerializationItem>
-                                    <SerializationItem>
-                                        <IsListValue>false</IsListValue>
-                                        <Name>Annotation</Name>
-                                    </SerializationItem>
-                                    <SerializationItem>
-                                        <IsListValue>false</IsListValue>
                                         <Name>TextTag</Name>
                                     </SerializationItem>
                                     <SerializationItem>
@@ -1728,11 +1719,20 @@
                                     </SerializationItem>
                                     <SerializationItem>
                                         <IsListValue>false</IsListValue>
+                                        <Name>ComponentName</Name>
+                                        <Value xsi:type="xsd:string">Характеристики</Value>
+                                    </SerializationItem>
+                                    <SerializationItem>
+                                        <IsListValue>false</IsListValue>
                                         <Name>WaitBefore</Name>
                                     </SerializationItem>
                                     <SerializationItem>
                                         <IsListValue>false</IsListValue>
                                         <Name>WaitAfter</Name>
+                                    </SerializationItem>
+                                    <SerializationItem>
+                                        <IsListValue>false</IsListValue>
+                                        <Name>Annotation</Name>
                                     </SerializationItem>
                                     <SerializationItem>
                                         <IsListValue>false</IsListValue>
@@ -2380,7 +2380,7 @@
                                                     <SerializationItem>
                                                         <IsListValue>false</IsListValue>
                                                         <Name>SearchStr</Name>
-                                                        <Value xsi:type="xsd:string">item.ToString()</Value>
+                                                        <Value xsi:type="xsd:string">item_regex.ToString()</Value>
                                                     </SerializationItem>
                                                     <SerializationItem>
                                                         <IsListValue>false</IsListValue>
@@ -2696,7 +2696,7 @@
                                             <SerializationItem>
                                                 <IsListValue>false</IsListValue>
                                                 <Name>ComponentName</Name>
-                                                <Value xsi:type="xsd:string">Выполнить JS</Value>
+                                                <Value xsi:type="xsd:string">клик закрыть характкристики.</Value>
                                             </SerializationItem>
                                             <SerializationItem>
                                                 <IsListValue>false</IsListValue>
@@ -2767,15 +2767,6 @@
                                 <Properties>
                                     <SerializationItem>
                                         <IsListValue>false</IsListValue>
-                                        <Name>ComponentName</Name>
-                                        <Value xsi:type="xsd:string">Картинка</Value>
-                                    </SerializationItem>
-                                    <SerializationItem>
-                                        <IsListValue>false</IsListValue>
-                                        <Name>Annotation</Name>
-                                    </SerializationItem>
-                                    <SerializationItem>
-                                        <IsListValue>false</IsListValue>
                                         <Name>TextTag</Name>
                                     </SerializationItem>
                                     <SerializationItem>
@@ -2785,11 +2776,20 @@
                                     </SerializationItem>
                                     <SerializationItem>
                                         <IsListValue>false</IsListValue>
+                                        <Name>ComponentName</Name>
+                                        <Value xsi:type="xsd:string">Картинка</Value>
+                                    </SerializationItem>
+                                    <SerializationItem>
+                                        <IsListValue>false</IsListValue>
                                         <Name>WaitBefore</Name>
                                     </SerializationItem>
                                     <SerializationItem>
                                         <IsListValue>false</IsListValue>
                                         <Name>WaitAfter</Name>
+                                    </SerializationItem>
+                                    <SerializationItem>
+                                        <IsListValue>false</IsListValue>
+                                        <Name>Annotation</Name>
                                     </SerializationItem>
                                     <SerializationItem>
                                         <IsListValue>false</IsListValue>
@@ -3042,15 +3042,6 @@
                                 <Properties>
                                     <SerializationItem>
                                         <IsListValue>false</IsListValue>
-                                        <Name>ComponentName</Name>
-                                        <Value xsi:type="xsd:string">Отзовы</Value>
-                                    </SerializationItem>
-                                    <SerializationItem>
-                                        <IsListValue>false</IsListValue>
-                                        <Name>Annotation</Name>
-                                    </SerializationItem>
-                                    <SerializationItem>
-                                        <IsListValue>false</IsListValue>
                                         <Name>TextTag</Name>
                                     </SerializationItem>
                                     <SerializationItem>
@@ -3060,11 +3051,20 @@
                                     </SerializationItem>
                                     <SerializationItem>
                                         <IsListValue>false</IsListValue>
+                                        <Name>ComponentName</Name>
+                                        <Value xsi:type="xsd:string">Отзовы</Value>
+                                    </SerializationItem>
+                                    <SerializationItem>
+                                        <IsListValue>false</IsListValue>
                                         <Name>WaitBefore</Name>
                                     </SerializationItem>
                                     <SerializationItem>
                                         <IsListValue>false</IsListValue>
                                         <Name>WaitAfter</Name>
+                                    </SerializationItem>
+                                    <SerializationItem>
+                                        <IsListValue>false</IsListValue>
+                                        <Name>Annotation</Name>
                                     </SerializationItem>
                                     <SerializationItem>
                                         <IsListValue>false</IsListValue>
@@ -4596,13 +4596,17 @@
                                                         <Properties>
                                                             <SerializationItem>
                                                                 <IsListValue>false</IsListValue>
-                                                                <Name>TextTag</Name>
-                                                                <Value xsi:type="xsd:string">Else</Value>
+                                                                <Name>ComponentName</Name>
+                                                                <Value xsi:type="xsd:string">Выход из цикла</Value>
                                                             </SerializationItem>
                                                             <SerializationItem>
                                                                 <IsListValue>false</IsListValue>
-                                                                <Name>ComponentName</Name>
-                                                                <Value xsi:type="xsd:string">Выход из цикла</Value>
+                                                                <Name>Annotation</Name>
+                                                            </SerializationItem>
+                                                            <SerializationItem>
+                                                                <IsListValue>false</IsListValue>
+                                                                <Name>TextTag</Name>
+                                                                <Value xsi:type="xsd:string">Else</Value>
                                                             </SerializationItem>
                                                             <SerializationItem>
                                                                 <IsListValue>false</IsListValue>
@@ -4611,10 +4615,6 @@
                                                             <SerializationItem>
                                                                 <IsListValue>false</IsListValue>
                                                                 <Name>WaitAfter</Name>
-                                                            </SerializationItem>
-                                                            <SerializationItem>
-                                                                <IsListValue>false</IsListValue>
-                                                                <Name>Annotation</Name>
                                                             </SerializationItem>
                                                             <SerializationItem>
                                                                 <IsListValue>false</IsListValue>
