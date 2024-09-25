@@ -12,6 +12,15 @@
         <Properties>
             <SerializationItem>
                 <IsListValue>false</IsListValue>
+                <Name>ComponentName</Name>
+                <Value xsi:type="xsd:string">CreateURL</Value>
+            </SerializationItem>
+            <SerializationItem>
+                <IsListValue>false</IsListValue>
+                <Name>Annotation</Name>
+            </SerializationItem>
+            <SerializationItem>
+                <IsListValue>false</IsListValue>
                 <Name>TextTag</Name>
             </SerializationItem>
             <SerializationItem>
@@ -21,20 +30,11 @@
             </SerializationItem>
             <SerializationItem>
                 <IsListValue>false</IsListValue>
-                <Name>ComponentName</Name>
-                <Value xsi:type="xsd:string">CreateURL</Value>
-            </SerializationItem>
-            <SerializationItem>
-                <IsListValue>false</IsListValue>
                 <Name>WaitBefore</Name>
             </SerializationItem>
             <SerializationItem>
                 <IsListValue>false</IsListValue>
                 <Name>WaitAfter</Name>
-            </SerializationItem>
-            <SerializationItem>
-                <IsListValue>false</IsListValue>
-                <Name>Annotation</Name>
             </SerializationItem>
             <SerializationItem>
                 <IsListValue>false</IsListValue>
@@ -1681,7 +1681,7 @@
                     <SerializationItem>
                         <IsListValue>false</IsListValue>
                         <Name>Equation</Name>
-                        <Value xsi:type="xsd:string">dict_config["rating"] != ""</Value>
+                        <Value xsi:type="xsd:string">dict_config["four_rating"] != ""</Value>
                     </SerializationItem>
                     <SerializationItem>
                         <IsListValue>false</IsListValue>
@@ -1770,12 +1770,12 @@
                             <SerializationItem>
                                 <IsListValue>false</IsListValue>
                                 <Name>Variable</Name>
-                                <Value xsi:type="xsd:string">rating</Value>
+                                <Value xsi:type="xsd:string">four_rating</Value>
                             </SerializationItem>
                             <SerializationItem>
                                 <IsListValue>false</IsListValue>
                                 <Name>Data</Name>
-                                <Value xsi:type="xsd:string">$"&amp;qrfrom={dict_config["rating"].ToString()}"</Value>
+                                <Value xsi:type="xsd:string">$"&amp;qrfrom={dict_config["four_rating"].ToString()}"</Value>
                             </SerializationItem>
                             <SerializationItem>
                                 <IsListValue>false</IsListValue>
@@ -1862,7 +1862,7 @@
                     <SerializationItem>
                         <IsListValue>false</IsListValue>
                         <Name>Data</Name>
-                        <Value xsi:type="xsd:string">$"https://market.yandex.ru/catalog--noutbuki/26895412/list?hid=91013{sort}&amp;glfilter=21194330%3A36779198{processor}{ram}{hard_disk}{weight}{battery_life}&amp;resale_goods=resale_new{rating}"</Value>
+                        <Value xsi:type="xsd:string">$"https://market.yandex.ru/catalog--noutbuki/26895412/list?hid=91013{sort}&amp;glfilter=21194330%3A36779198{processor}{ram}{hard_disk}{weight}{battery_life}&amp;resale_goods=resale_new{four_rating}"</Value>
                     </SerializationItem>
                     <SerializationItem>
                         <IsListValue>false</IsListValue>
@@ -2025,12 +2025,12 @@
                     <SerializationItem>
                         <IsListValue>false</IsListValue>
                         <Name>Variable</Name>
-                        <Value xsi:type="xsd:string">rating2</Value>
+                        <Value xsi:type="xsd:string">any_rating</Value>
                     </SerializationItem>
                     <SerializationItem>
                         <IsListValue>false</IsListValue>
                         <Name>Data</Name>
-                        <Value xsi:type="xsd:string">Convert.ToDouble(dict_config["rating2"].ToString())</Value>
+                        <Value xsi:type="xsd:string">Convert.ToDouble(dict_config["any_rating"].ToString())</Value>
                     </SerializationItem>
                     <SerializationItem>
                         <IsListValue>false</IsListValue>
@@ -2359,7 +2359,7 @@
             <Direction>IN_OUT</Direction>
         </ScriptVariable>
         <ScriptVariable>
-            <Name>rating</Name>
+            <Name>four_rating</Name>
             <Group>параметры</Group>
             <Comment />
             <DataTypeString>String</DataTypeString>
@@ -2388,7 +2388,7 @@
             <Direction>OUT</Direction>
         </ScriptVariable>
         <ScriptVariable>
-            <Name>rating2</Name>
+            <Name>any_rating</Name>
             <Group />
             <DataTypeString>Double</DataTypeString>
             <Direction>OUT</Direction>

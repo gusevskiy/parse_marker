@@ -16,9 +16,15 @@
 только значения
 //div[@class='dETH7 _1MOwX _1bCJz']/div[2]/div/div/div/div/div/div[@class='_1MOwX _1bCJz _2FUSc'][1]//div[@class='_2pWiw']
 
-
+href
+document.getElementsByClassName("_2rw4E _2g7lE")[0].getElementsByTagName("a")[0].attributes[0].textContent 
+характеристики
+document.getElementsByClassName("_2rw4E _2g7lE")[0].innerText 
 
 Отзовы рейтинг
+
+//div[@class='_23gJ9']//div[@class='_3KaoG cia-vs']
+
 получить текст кол-ва отзывов
 //div[@class='_1MOwX _2eMnU _1Qy9t']/div/div/div[1]/a/span
 
@@ -34,6 +40,9 @@ document.getElementsByClassName('_1I3ni')[8].TextContent
 
 
 
+процессы
+
+firefox
 
 
 
@@ -46,8 +55,3 @@ document.getElementsByClassName('_1I3ni')[8].TextContent
 
 
 
-
-
-
-
-Общие характеристикиБрендDIGMAТипноутбукОперационная системаWindows 11 ProПроцессорIntel Celeron N4000Линейка процессораIntel Celeron NЧастота процессора1100Количество ядер процессора2Ядро процессораGemini LakeОперативная память4 ГБТип памятиDDR4Частота памяти2400 МГцДиагональ экрана14 "Разрешение экрана1920x1080Частота обновления экрана60 ГцТип покрытия экранаматовыйТип матрицы экранаIPSНаличие микрофонадаБеспроводные интерфейсыBluetooth, Wi-FiСтандарт Wi-Fi 802.11802.11 b/g/nВерсия Bluetooth4.2ИнтерфейсыUSB 2.0 Type A, USB 3.0 Type A, выход mini HDMI, микрофон/наушники ComboВидеокартаIntel UHD Graphics 600Тип видеокартывстроеннаяОбъем видеопамятиSMAТип видеопамятиSMAОбщий объем накопителей SSD128 ГБОбщий объем накопителей HDDотсутствуетОптический приводнетПоддержка карт памятиmicroSDЕмкость аккумулятора4800 мА·чЕмкость аккумулятора (Вт·ч)36 Вт·чРаскладка клавиатурыанглийская/русскаяУстройства позиционированияTouchpadРазрешение веб-камеры1080pРазмеры (ДхШхГ)220x333x17 ммВес1.3 кгДополнительная информацияeMMC хранилище распаяно на материнской плате.
