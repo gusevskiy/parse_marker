@@ -66,6 +66,14 @@ document.querySelector("[data-node-id='3o2z_7uwq_3']").getElementsByTagName("but
 кол-во элементов
 document.getElementsByClassName('_1I3ni').length
 
+каждый отзыв
+
+json grade
+document.querySelectorAll("[data-baobab-name='review']")[000000000].getAttribute('data-zone-data') 
+text
+document.getElementsByClassName('_1I3ni')[0000000].textContent
+
+
 
 
 
